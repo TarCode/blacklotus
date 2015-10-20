@@ -8,6 +8,7 @@ html, body{
   	font-family: 'Montserrat', sans-serif;
     font-size: 100%;
   	 background: #FFf;
+     color:#333;
   	 -webkit-font-smoothing: antialiased;
 }
 body a{
@@ -249,7 +250,7 @@ nav a#pull {
 	font-weight:400;
 	font-family: 'Open Sans', sans-serif;
 	line-height:1.7em;
-	color:#888888;
+	color:#333;
 }
 .service-grid span.service-icon1{
 	background-position:0px 0px;
@@ -374,7 +375,7 @@ a.leran-more:hover{
 	font-weight: 400;
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.7em;
-	color: #777777;
+	color: #333;
 }
 .portfolio-top-left-grid-left{
 	float:left;
@@ -805,7 +806,6 @@ a.leran-more:hover{
 	width:100%;
 	padding:0.8em;
 	font-family: 'Open Sans', sans-serif;
-	color:#777;
 	font-weight:300;
 	border-radius:0.3em;
 	-webkit-border-radius:0.3em;
@@ -828,7 +828,7 @@ a.leran-more:hover{
 	outline:none;
 	min-height:150px;
 }
-.cognito input[type="submit"]{
+.cognito #c-forms-form button, .cognito #c-forms-form input[type=button]{
 	background:#35C2F8;
 	padding:0.9em 1.5em;
 	color:#FFF;
