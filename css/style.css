@@ -712,7 +712,7 @@ a.leran-more:hover{
 }
 /*---- contact ----*/
 .contact{
-	background: #111111;
+	background: #fff;
 	padding: 5em 0 0;
 }
 .contact-left h3{
@@ -765,20 +765,23 @@ a.leran-more:hover{
 	background-position: 0px -132px;
 }
 /*----*/
-.contact-right-grid p,.contact-right-grid p a{
+.c-field{
+  padding: 1em;
+}
+.cognito p,.cognito p a{
 	color: #FFF;
 	font-weight: 300;
 	font-size: 1.1em;
 	font-family: 'Open Sans', sans-serif;
 	margin: 0.8em 0;
 }
-.contact-right-grid p a{
+.cognito p a{
 	text-decoration:none;
 }
-.contact-right-grid p a:hover{
+.cognito p a:hover{
 	color:#35C2F8;
 }
-.contact-right-grid p span{
+.cognito p span{
 	width: 28px;
 	height: 32px;
 	display: inline-block;
@@ -786,19 +789,19 @@ a.leran-more:hover{
 	vertical-align: middle;
 	margin-right: 0.3em;
 }
-.contact-right-grids div.col-md-6{
+.cognito div.col-md-6{
 	padding:0;
 }
-.contact-right-grid p span.c-msg{
+.cognito p span.c-msg{
 	background-position: 0px 6px;
 }
-.contact-right-grid p span.c-face{
+.cognito p span.c-face{
 	background-position: 0px -61px;
 }
-.contact-right-grid p span.c-pin{
+.cognito p span.c-pin{
 	background-position: 0px -126px;
 }
-.contact-right input[type="text"],.contact-right textarea{
+.cognito input[type="text"], .cognito textarea{
 	width:100%;
 	padding:0.8em;
 	font-family: 'Open Sans', sans-serif;
@@ -818,14 +821,14 @@ a.leran-more:hover{
 	-ms-transition:border-color 0.4s;
 	margin:0 0 1em 0;
 }
-.contact-right input[type="text"]:hover,.contact-right textarea:hover{
+.cognito input[type="text"]:hover,.cognito textarea:hover{
 	border-color:#35C2F8;
 }
-.contact-right textarea{
+.cognito textarea{
 	outline:none;
 	min-height:150px;
 }
-.contact-right input[type="submit"]{
+.cognito input[type="submit"]{
 	background:#35C2F8;
 	padding:0.9em 1.5em;
 	color:#FFF;
@@ -839,7 +842,7 @@ a.leran-more:hover{
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
 }
-.contact-right input[type="submit"]:hover{
+.cognito input[type="submit"]:hover{
 	background:#EE2F1B;
 }
 /*---- copy-right -----*/
@@ -1232,11 +1235,11 @@ a.leran-more:hover{
 		padding:1.5em 0 1.2em;
 		margin-top:3em;
 	}
-	.contact-right input[type="text"], .contact-right textarea,.contact-right input[type="submit"]{
+	.cognito input[type="text"], .cognito textarea,.cognito input[type="submit"]{
 		-webkit-appearance:none;
 		resize:none;
 	}
-	.contact-right input[type="submit"] {
+	.cognito input[type="submit"] {
 		padding: 0.7em 0em;
 		width: 100%;
 		outline:none;
@@ -1389,7 +1392,7 @@ a.leran-more:hover{
 		width: 80%;
 		margin: 0 auto;
 	}
-	.contact-right-grid p, .contact-right-grid p a {
+	.cognito p, .cognito p a {
 		font-size: 1em;
 	}
 	.contact-left-grid p, .contact-left-grid p a {
@@ -1401,11 +1404,11 @@ a.leran-more:hover{
 	.top-nav ul li a {
 		padding: 0.2em 0;
 	}
-	.contact-right input[type="text"], .contact-right textarea,.contact-right input[type="submit"]{
+	.cognito input[type="text"], .cognito textarea,.cognito input[type="submit"]{
 		-webkit-appearance:none;
 		resize:none;
 	}
-	.contact-right input[type="submit"] {
+	.cognito input[type="submit"] {
 		padding: 0.7em 0em;
 		width: 100%;
 		outline:none;
