@@ -140,6 +140,7 @@ nav a#pull {
 		border-bottom: 0;
 		float:none;
 	}
+
 	nav ul {
 		display: none;
 		height: auto;
@@ -890,6 +891,7 @@ a.leran-more:hover{
 	.container{
 		width:80%;
 	}
+
 }
 @media (max-width:1280px){
 	.container{
@@ -898,11 +900,13 @@ a.leran-more:hover{
 	.portfolio-work-grid-caption {
 		padding: 4.5em 2em 0em 2em;
 	}
+
 }
 @media (max-width:1024px){
 	.container{
 		width:80%;
 	}
+
 	.portfolio-work-grid-caption {
 		padding: 2.4em 1em 0em 1em;
 	}
@@ -932,6 +936,12 @@ a.leran-more:hover{
 	.about-time-line:before {
 		left: 52%;
 	}
+}
+@media (min-width:768px){
+  .contactForm{
+    padding-left:5em;
+    padding-top:0em;
+  }
 }
 @media (max-width:768px){
 	.container{
