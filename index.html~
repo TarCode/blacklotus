@@ -3,7 +3,7 @@
 	<head>
 		<title>blacklotus design | development</title>
 		<link rel="shortcut icon" href="./images/12.ico">
-		<meta name="google-site-verification" content="vUaRpjxb5oSRDlpOCtBsS-T-ioii4Yv1NXHu9o13b48" />
+
 		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="js/jquery.min.js"></script>
